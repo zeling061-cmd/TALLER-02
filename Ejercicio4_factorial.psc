@@ -1,5 +1,16 @@
-//Hacer el diagrama de flujo para calcular la factorial de valor N ingresado por teclado.
-//Formula de la factorial (N! = 1* 2 * 3 ... *N).
-//Ejemplo:
-// Factorial de 4 => 1*2*3*4 = 24
-// Factorial de 5 => 1*2*3*4*5 = 120}
+Algoritmo Factorial
+    Definir N, i, F Como Entero
+
+    Escribir "Ingrese un número para N:"
+    Leer N
+
+    F <- 1
+    i <- 1
+
+    Mientras i <= N Hacer
+        F <- F * i
+        i <- i + 1
+    FinMientras
+
+    Escribir "El factorial de ", N, " es: ", F
+FinAlgoritmo
