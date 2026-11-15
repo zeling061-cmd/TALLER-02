@@ -1,0 +1,13 @@
+Algoritmo Fibonacci100
+	Definir a, b, c, contador Como Real
+	a <- 1
+	b <- 1
+	contador <- 1
+	Mientras contador<=100 Hacer
+		Escribir a
+		c <- a+b
+		a <- b
+		b <- c
+		contador <- contador+1
+	FinMientras
+FinAlgoritmo
