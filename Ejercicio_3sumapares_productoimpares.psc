@@ -10,6 +10,6 @@ Algoritmo Ejercicio3_sumapares_productoimpares
 		impares=impares*(i*2-1)
 		i=i+1
 	FinMientras
-	Escribir "La suma de los pares de " ,N ," números es: " , pares
-	Escribir "el producto de los impares de ", N , " números es: " , impares
+	Escribir "La suma de los pares de " ,N ," nÃºmeros es: " , pares
+	Escribir "el producto de los impares de ", N , " nÃºmeros es: " , impares
 FinAlgoritmo
