@@ -1,12 +1,12 @@
 Algoritmo Producto_Potencia_Suma_Sucesiva
     Definir A, B, i, j, k, producto, potencia, parcial Como Entero
 	
-    Escribir "Ingrese el número entero A:"
+    Escribir "Ingrese un número entero para A:"
     Leer A
-    Escribir "Ingrese el número entero B:"
+    Escribir "Ingrese un número entero para B:"
     Leer B
 	
-    // ===== PRODUCTO = A * B (suma sucesiva) =====
+    // ===== se aplica la formula PRODUCTO = A * B (suma sucesiva) =====
     producto <- 0
     Si B >= 0 Entonces
         Para i <- 1 Hasta B Hacer
@@ -41,7 +41,7 @@ Algoritmo Producto_Potencia_Suma_Sucesiva
                 potencia <- parcial
             FinPara
         Sino
-            // exponente negativo: calculo A^|B| y aviso
+            // cuando el exponente es negativo: calculo A^|B| y avisar
             potencia <- 1
             Para i <- 1 Hasta -B Hacer
                 parcial <- 0
